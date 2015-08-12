@@ -29,6 +29,7 @@ function Advance() {
                 transform.position = Vector3.Lerp(transform.position, space.gameObject.transform.position, .0500000);
                 yield;
             }
+            space.land(this);
         }
 
     }

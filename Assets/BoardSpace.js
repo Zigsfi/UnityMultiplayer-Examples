@@ -14,4 +14,7 @@ public class BoardSpace extends UnityEngine.MonoBehaviour {
         nextSpacesArray.Add(space);
         nextSpaces = nextSpacesArray.ToBuiltin(BoardSpace);
     }
+    function land(player : Player) {
+
+    }
 }
